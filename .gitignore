@@ -1,0 +1,4 @@
+# node modules y reportes generados
+node_modules/
+reportes/*
+!reportes/.gitkeep
