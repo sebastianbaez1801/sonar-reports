@@ -2,8 +2,8 @@ import fetch from "node-fetch";
 import ExcelJS from "exceljs";
 import fs from "fs";
 import path from "path";
-import { CONFIG } from "../constants/config.js";
-import * as PROJECTS from "../constants/projects.js";
+import { CONFIG } from "../config/config.js";
+import * as PROJECTS from "../config/projects.js";
 
 const authToken = Buffer.from(`${CONFIG.username}:${CONFIG.password}`).toString(
   "base64"
